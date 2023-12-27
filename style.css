@@ -1,0 +1,20 @@
+#background {
+    background-image: url("background.jpg");
+}
+
+h3 {
+    font-size: 25px !important;
+}
+
+canvas {
+    animation-name: color-change;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes color-change {
+    from {box-shadow: 1px 1px 38px red; border: yellow 5px solid}
+    to {box-shadow: 1px 1px 38px yellow; border: red 5px solid}
+}
+
+
